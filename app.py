@@ -95,4 +95,4 @@ if user_prompt:
     # Display Gemini-Pro's response
     with st.chat_message("assistant"):
         st.markdown(gemini_response.text)
-st.write("© 2024 Dharohar.All rights reserved")
+st.sidebar.write("© 2024 Dharohar.All rights reserved")
