@@ -67,6 +67,13 @@ if st.sidebar.button("Suggest"):
         with st.chat_message("assistant"):
             st.markdown(gemini_response.text)
 
+if st._bottom.button("Get Emergency Contacts"):
+    with st.spinner("Getting Contacts"):
+        gemini_response = st.session_state.chat_session.send_message("Provide useful emergency contact numbers necessary for tourists in Nepal")
+
+        # Display Gemini-Pro's response in the main area
+        with st.chat_message("assistant"):
+            st.markdown(gemini_response.text)
 
 # Input field for user's message
 user_prompt = st.chat_input("Ask me...")
