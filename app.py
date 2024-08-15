@@ -38,7 +38,7 @@ if "chat_session" not in st.session_state:
 
 # Display the chatbot's title on the page
 st.title("Dharohar Bot")
-st.subheader("A travelling guide chatbot")
+st.subheader("A Travelling Guide Chatbot")
 
 # Sidebar inputs for user to provide location and type of places
 st.sidebar.markdown('Fill these fields')
