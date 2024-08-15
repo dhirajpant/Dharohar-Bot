@@ -42,7 +42,7 @@ st.subheader("A travelling guide chatbot")
 
 # Sidebar inputs for user to provide location and type of places
 st.sidebar.markdown('Fill these fields')
-location = st.sidebar.text_input('Enter your desired Location:')
+location = st.sidebar.text_input('Enter Your Desired Location:')
 categories = [
     "Religious Destinations",
     "Cultural Destinations",
